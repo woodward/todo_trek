@@ -53,6 +53,7 @@ defmodule TodoTrekWeb.Timeline do
         </div>
         <div class="flex min-w-0 flex-1 justify-between space-x-4 pt-1.5">
           <div>
+            <p class="text-lg text-black-900"><%= @entry.id %></p>
             <p class="text-sm text-gray-500">
               <%= @entry.performer_text %> repositioned list "<%= @entry.subject_text %>"
               from <span class="font-medium text-gray-900"><%= @entry.before_text %></span>
@@ -80,6 +81,7 @@ defmodule TodoTrekWeb.Timeline do
         </div>
         <div class="flex min-w-0 flex-1 justify-between space-x-4 pt-1.5">
           <div>
+            <p class="text-lg text-black-900"><%= @entry.id %></p>
             <p class="text-sm text-gray-500">
               <%= @entry.performer_text %> repositioned todo "<%= @entry.subject_text %>"
               from <span class="font-medium text-gray-900"><%= @entry.before_text %></span>
@@ -134,6 +136,7 @@ defmodule TodoTrekWeb.Timeline do
         </div>
         <div class="flex min-w-0 flex-1 justify-between space-x-4 pt-1.5">
           <div>
+            <p class="text-lg text-black-900"><%= @entry.id %></p>
             <p class="text-sm text-gray-500">
               <%= @entry.performer_text %> deleted todo "<%= @entry.subject_text %>"
             </p>
@@ -168,6 +171,7 @@ defmodule TodoTrekWeb.Timeline do
         </div>
         <div class="flex min-w-0 flex-1 justify-between space-x-4 pt-1.5">
           <div>
+            <p class="text-lg text-black-900"><%= @entry.id %></p>
             <p class="text-sm text-gray-500">
               <%= @entry.performer_text %> toggled todo "<%= @entry.subject_text %>"
               from <span class="font-medium text-gray-900"><%= @entry.before_text %></span>
@@ -195,6 +199,7 @@ defmodule TodoTrekWeb.Timeline do
         </div>
         <div class="flex min-w-0 flex-1 justify-between space-x-4 pt-1.5">
           <div>
+            <p class="text-lg text-black-900"><%= @entry.id %></p>
             <p class="text-sm text-gray-500">
               <%= @entry.performer_text %> updated todo "<%= @entry.subject_text %>"
               to <span class="font-medium text-gray-900">"<%= @entry.after_text %>"</span>
@@ -221,6 +226,7 @@ defmodule TodoTrekWeb.Timeline do
         </div>
         <div class="flex min-w-0 flex-1 justify-between space-x-4 pt-1.5">
           <div>
+            <p class="text-lg text-black-900"><%= @entry.id %></p>
             <p class="text-sm text-gray-500">
               <%= @entry.performer_text %> created new todo "<%= @entry.subject_text %>"
               on list
@@ -248,6 +254,7 @@ defmodule TodoTrekWeb.Timeline do
         </div>
         <div class="flex min-w-0 flex-1 justify-between space-x-4 pt-1.5">
           <div>
+            <p class="text-lg text-black-900"><%= @entry.id %></p>
             <p class="text-sm text-gray-500">
               <%= @entry.performer_text %> created new list "<%= @entry.subject_text %>"
             </p>
@@ -273,6 +280,7 @@ defmodule TodoTrekWeb.Timeline do
         </div>
         <div class="flex min-w-0 flex-1 justify-between space-x-4 pt-1.5">
           <div>
+            <p class="text-lg text-black-900"><%= @entry.id %></p>
             <p class="text-sm text-gray-500">
               <%= @entry.performer_text %> updated list "<%= @entry.subject_text %>"
               to <span class="font-medium text-gray-900">"<%= @entry.after_text %>"</span>
@@ -299,6 +307,7 @@ defmodule TodoTrekWeb.Timeline do
         </div>
         <div class="flex min-w-0 flex-1 justify-between space-x-4 pt-1.5">
           <div>
+            <p class="text-lg text-black-900"><%= @entry.id %></p>
             <p class="text-sm text-gray-500">
               <%= @entry.performer_text %> deleted list "<%= @entry.subject_text %>"
             </p>
